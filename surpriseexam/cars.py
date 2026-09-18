@@ -31,11 +31,12 @@ while True:
 
             for i in range(1,amount+1):
                 plate = (input(f"Ingrese el numero de placa del {i}º  vehículo  \n"))
-                car_brand = (input("Ingrese la marca \n"))
-                year_model = int(input("Ingrese el modelo\n "))
                 plate_number.append(plate)
+                car_brand = (input("Ingrese la marca \n"))
                 brand.append(car_brand)
+                year_model = int(input("Ingrese el modelo\n "))
                 model_year.append(year_model)
+                
                 amount_cars += 1
 
             print("Se registro correctamente ! ")

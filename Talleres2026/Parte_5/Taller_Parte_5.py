@@ -82,9 +82,10 @@
 #     print(f"\n{letter} -> {count[letter]}")
 
 
-#Ejercicio 46
-#
-# students = {}
+# Ejercicio 46
+# students = {
+
+# }
 # amount = int(input("\n¿Cuántos estudiantes quieres registrar? > "))
 
 # for i in range(amount):
@@ -92,8 +93,36 @@
 #     grade = float(input(f"\nNotas de {name} > "))
 #     students[name] = grade
 
-# best_student = max(students, key=students.get)
-# print(f"La mejor nota fue del estudiante {best_student} -> {students[best_student]}")
+# best_grade = 0
+# best_student = ""
+# for name , nota in students.items():
+#     if best_grade < nota:
+#         best_grade = nota
+#         best_student = name
 
-#Ejercicio 47
-# 
+# print(f"El mejor estudiante fue {best_student} con una nota de {best_grade}")
+
+
+
+
+# Ejercicio 47
+
+arr = {"Laura" : 4500000,
+        "Juan"  : 6200000,
+        "Pedro" : 5100000      
+}
+best_sale = 0
+best_saler = ""
+for name , sale in arr.items():
+    if best_sale < sale:
+        best_sale = sale
+        best_saler = name
+print(f"El mejor vendedor fue {best_saler} con una venta de {best_sale}")
+
+# for i in range(len(arr)):
+
+# amount = int(input("Ingrese la cantidad de vendedores que va guardar en el diccionario"))\
+# name = input(f"Ingrese el nombre del {i+1} vendedor")
+# sales = float(input(f"ingrese las ventas de {name[i]}"))
+
+
