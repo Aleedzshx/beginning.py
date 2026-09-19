@@ -1,4 +1,5 @@
 # Taller de Python
+
 ## Parte 5 – Diccionarios e Integradores
 
 ---
@@ -36,7 +37,11 @@ Listado de estudiantes
 
 ---
 
+
+
 # Ejercicio 42. Agenda telefónica
+
+
 
 ## Enunciado
 
@@ -59,6 +64,8 @@ Teléfono: 3155555555
 Buscar contacto: Ana
 ```
 
+
+
 ### Salida esperada
 
 ```text
@@ -67,7 +74,11 @@ Teléfono de Ana: 3209876543
 
 ---
 
+
+
 # Ejercicio 43. Inventario de productos
+
+
 
 ## Enunciado
 
@@ -90,6 +101,8 @@ Cantidad: 10
 Consultar producto: Café
 ```
 
+
+
 ### Salida esperada
 
 ```text
@@ -98,7 +111,11 @@ Cantidad disponible de Café: 10
 
 ---
 
+
+
 # Ejercicio 44. Contador de palabras
+
+
 
 ## Enunciado
 
@@ -112,6 +129,8 @@ Frase:
 python es divertido y python es fácil
 ```
 
+
+
 ### Salida esperada
 
 ```text
@@ -124,7 +143,11 @@ fácil : 1
 
 ---
 
+
+
 # Ejercicio 45. Frecuencia de letras
+
+
 
 ## Enunciado
 
@@ -137,6 +160,8 @@ Palabra:
 
 programacion
 ```
+
+
 
 ### Salida esperada
 
@@ -154,7 +179,11 @@ n : 1
 
 ---
 
+
+
 # Ejercicio 46. Sistema de notas
+
+
 
 ## Enunciado
 
@@ -171,6 +200,8 @@ Camila 4.9
 Pedro 4.1
 ```
 
+
+
 ### Salida esperada
 
 ```text
@@ -181,7 +212,11 @@ Camila -> 4.9
 
 ---
 
+
+
 # Ejercicio 47. Control de ventas
+
+
 
 ## Enunciado
 
@@ -197,6 +232,8 @@ Juan 6200000
 Pedro 5100000
 ```
 
+
+
 ### Salida esperada
 
 ```text
@@ -207,7 +244,11 @@ Juan -> $6200000
 
 ---
 
+
+
 # Ejercicio 48. Biblioteca
+
+
 
 ## Enunciado
 
@@ -230,6 +271,8 @@ Título: Bases de Datos
 Consultar código: L002
 ```
 
+
+
 ### Salida esperada
 
 ```text
@@ -240,7 +283,11 @@ L002 -> Estructuras de Datos
 
 ---
 
+
+
 # Ejercicio 49. Registro de empleados
+
+
 
 ## Enunciado
 
@@ -256,6 +303,8 @@ Cantidad de empleados: 3
 103 2800000
 ```
 
+
+
 ### Salida esperada
 
 ```text
@@ -264,7 +313,11 @@ Salario promedio: $2833333.33
 
 ---
 
+
+
 # Ejercicio 50. Sistema de gestión de estudiantes
+
+
 
 ## Enunciado
 
@@ -302,14 +355,3 @@ Carrera: Electrónica
 Promedio: 4.9
 ```
 
-### Salida esperada
-
-```text
-Mejor estudiante
-
-Código: 103
-Nombre: Camila
-Edad: 21
-Carrera: Electrónica
-Promedio: 4.9
-```
