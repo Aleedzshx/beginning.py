@@ -11,4 +11,3 @@ print("Lista ordenada:", arr)
 
 # for k in arr:
 #     print(bin(k)[2:])
- 

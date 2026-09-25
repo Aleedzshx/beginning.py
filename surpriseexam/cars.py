@@ -42,10 +42,10 @@ while True:
             print("Se registro correctamente ! ")
 
         case 2 :
-           if amount_cars == 0:
-               print("No hay vehículos registrados...\n")
-               break
-           else:
+             if amount_cars == 0:
+                 print("No hay vehículos registrados...\n")
+                 break
+             else:
                 print("="*40)
                 print("Los vehículos son los siguientes...\n ")
                 for i in range(len(plate_number)):

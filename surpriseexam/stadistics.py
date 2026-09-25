@@ -69,7 +69,6 @@ while True:
                         mejor_tiempo = tiempos[i]
                         pos = i
                 print(f"El mejor tiempo es de {deportistas[pos]} con {tiempos[pos]}s\n")
-      
         case 5:
             if amount_deportistas == 0:
                 print("No hay deportistas registrados para calcular el promedio.\n")
@@ -87,5 +86,3 @@ while True:
 
 
 
-
-     
