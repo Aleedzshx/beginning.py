@@ -1,5 +1,4 @@
 
-
 vowels = "aeiou"
 vowel = 0
 word = input("Ingrese una palabra > ").lower()

@@ -7,6 +7,4 @@ total_dolls = dolls * 75
 
 total_clowns = clowns * 112
 
-total = total_dolls + total_clowns
-
-print("El peso total entre muñecas y payasos es:" ,  total , "g")
+print("El peso total entre muñecas y payasos es:" , (total_dolls + total_clowns) , "g")

@@ -35,9 +35,8 @@ while True:
         
         if attempts == 0:
             print("\nDemasiados intentos fallidos, accceso denegado")
-            exit()
-           
- #----------------------------
+            exit()     
+#----------------------------
 
 #----------------------------
 

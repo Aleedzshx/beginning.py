@@ -1,5 +1,5 @@
 
-username = input("Ingrese una palabra > ").split()
+username = input("Ingrese una palabra > ")
 
 letters = len(username)
 

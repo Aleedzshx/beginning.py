@@ -1,14 +1,16 @@
 
-#Ejercicio 37
-#
-# array = []
-# amount = int(input('''\nIngresa la cantidad de numeros que
-#    que desea ingresar > '''))
 
-# for i in range(1,amount+1):
-#     temp = int(input(f"\nIngrese su {i} numero a la lista> "))
-#     array.append(temp)
+array1 = []
+array2 = []
 
-# new_arr = sorted(array)
+amount = int(input("\nIngresa la cantidad de numeros queque desea ingresar >"))
 
-# print(f" Lista ordenada > {new_arr}")
+for i in range(1,amount+1):
+    temp1= int(input(f"\nIngrese su {i} numero a la primera lista > "))
+    array1.append(temp1)
+
+    temp2= int(input(f"\nIngrese su {i} numero a la segunda lista > "))
+for i in range(1,amount+1):
+    array2.append(temp2)
+
+print(f"Su lista combinada es igual a {array1+array2}")

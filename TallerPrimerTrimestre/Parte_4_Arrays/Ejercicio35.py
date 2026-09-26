@@ -1,12 +1,13 @@
 
-array = ["Hola" , "Buenas" , "Adios"]
+array = []
 
-# amount = int(input('''\nIngresa la cantidad de palabras
-#     de deseas ingresar > '''))
+amount = int(input('''\nIngresa la cantidad de palabras
+    de deseas ingresar > '''))
 
-for i in array[::-1]:
-    print(i)
-    # temp = input(f"\nIngrese su {i} palabra > ")
-    # array.append(temp)
+for i in range(1,amount+1):
+    temp = input(f"\nIngrese su {i} palabra > ")
+    array.append(temp)
 
-# print("Lista invertida")
+print("Lista invertida")
+for e in array[::-1]:
+    print(e)

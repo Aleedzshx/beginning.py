@@ -6,8 +6,5 @@ for i in range(len(arr)):
         if arr[j] > arr[j+1]:
             arr[j], arr[j+1] = arr[j+1], arr[j]
             
-print("Lista ordenada:", arr)
+print(f"Lista ordenada: {arr}")
 
-
-# for k in arr:
-#     print(bin(k)[2:])
