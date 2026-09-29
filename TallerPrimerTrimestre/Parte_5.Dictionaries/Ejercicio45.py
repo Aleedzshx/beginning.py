@@ -1,5 +1,4 @@
 
-
 count = {}
 
 word = input("\nIngresa una palabra > ")

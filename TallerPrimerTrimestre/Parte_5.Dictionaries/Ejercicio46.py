@@ -1,7 +1,5 @@
 
-students = {
-
-}
+students = {}
 amount = int(input("\n¿Cuántos estudiantes quieres registrar? > "))
 
 for i in range(amount):
