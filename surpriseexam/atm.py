@@ -9,6 +9,7 @@ attempts = 3
 #=============
 def menu():
     print("~"*30)
+    print(f"Que vas a realizar hoy {user} ? ")
     print('''
     Sus opciones son...
     1. Consultar Saldo
@@ -20,6 +21,7 @@ def menu():
     
 print("~"*40)#----------------------------
 print("Bienvenido a Nuestro App Bank Colombia!")
+
 print("~"*40)#----------------------------
 
 

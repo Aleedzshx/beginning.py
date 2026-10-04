@@ -2,7 +2,7 @@ abc = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q',
 
 
 def eliminarMultiplosDeTres(abc):
-    for i in len(abc):
+    for i in abc:
         print(i)
 
 eliminarMultiplosDeTres(abc)
